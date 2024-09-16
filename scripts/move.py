@@ -2,15 +2,16 @@
 
 import os
 
+
 def organize_files(directory):
     if not os.path.exists(directory):
         return "Directory does not exist."
 
     ext_map = {
-        'Images': ['.jpg', '.png'],
-        'Documents': ['.txt', '.odt'],
-        'Videos': ['.mkv', '.mp4'],
-        'Music': ['.mp3', '.wav']
+        "Images": [".jpg", ".png"],
+        "Documents": [".txt", ".odt"],
+        "Videos": [".mkv", ".mp4"],
+        "Music": [".mp3", ".wav"],
     }
 
     for file in os.listdir(directory):
@@ -25,7 +26,7 @@ def organize_files(directory):
 
     return "Files organized successfully."
 
+
 # Get directory input from the user
 directory = input("Enter the directory path: ")
 print(organize_files(directory))
-
