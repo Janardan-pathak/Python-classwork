@@ -27,6 +27,7 @@ def organize_files(directory):
     return "Files organized successfully."
 
 
-# Get directory input from the user
-directory = input("Enter the directory path: ")
-print(organize_files(directory))
+if __name__ == "__main__":
+    # Get directory input from the user
+    directory = input("Enter the directory path: ")
+    print(organize_files(directory))
