@@ -12,5 +12,6 @@ def outer_function():
     print(x)
 
 
-outer_function()
-print(x)
+if __name__ == "__main__":
+    outer_function()
+    print(x)

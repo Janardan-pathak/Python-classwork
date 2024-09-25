@@ -6,5 +6,6 @@ def increment():
     counter += 1
 
 
-increment()
-print(counter)
+if __name__ == "__main__":
+    increment()
+    print(counter)

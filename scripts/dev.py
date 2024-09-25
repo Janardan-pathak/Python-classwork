@@ -5,7 +5,8 @@ def devide(a, b):
     return a / b
 
 
-a = int(input("input first value: "))
-b = int(input("input second value: "))
+if __name__ == "__main__":
+    a = int(input("input first value: "))
+    b = int(input("input second value: "))
 
-print(f"Devision of {a}/{b} is {devide(a,b)}")
+    print(f"Devision of {a}/{b} is {devide(a,b)}")

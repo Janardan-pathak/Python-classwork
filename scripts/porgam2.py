@@ -18,6 +18,7 @@ def read_csv(file_name):
     return op
 
 
-recievedData = read_csv(filename)
-print(recievedData)
+if __name__ == "__main__":
+    recievedData = read_csv(filename)
+    print(recievedData)
 # print(type(recievedData))
